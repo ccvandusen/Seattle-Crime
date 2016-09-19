@@ -2,7 +2,7 @@ library(ggplot2)
 library(ggmap)
 library(stringr)
 
-# don't run this line unless you have to; big file!
+# Reading in the data
 Crime_Data <- read.csv("SeattleIncident.csv", stringsAsFactors = FALSE)
 
 
